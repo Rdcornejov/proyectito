@@ -64,7 +64,7 @@ def write_training_log(file, epoch, v):
 class LoadModel(object):
     def __init__(self, data_file, out_path, batch_size=64, num_workers=-1,
                  training_ratio=5, gradient_penalty=10, loss='l1', loss_multiply=100,
-                 overwrite=False, config_file='config.txt', opt='voxels-ugan',
+                 overwrite=False, config_file='/content/proyectito/config.txt', opt='voxels-ugan',
                  evaluate_mode=False):
         '''
         inputs:
