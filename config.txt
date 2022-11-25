@@ -1,4 +1,4 @@
-modelnet10: /Users/arone/OneDrive/Escritorio/3D-ORGAN/ModelNet10/voxels.npy
+modelnet10: /content/proyectito/ModelNet10/voxels.npy
 modelnet10_64: /home/rhermoza/data/3d/modelnet/ModelNet10/voxels64.npy
 modelnet40: /home/rhermoza/data/3d/modelnet/ModelNet40/voxels.npy
 arq_dataset: /content/proyectito/ModelNet10/voxels.npy
