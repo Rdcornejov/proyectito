@@ -3,7 +3,7 @@ from keras.layers import Input, Dense, Reshape, Flatten, Activation
 from keras.layers import Embedding, Lambda, Concatenate, Add
 from keras.layers import GlobalAvgPool3D, Multiply
 from keras.layers.convolutional import Conv3DTranspose, Conv3D
-from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization
 from keras.layers.advanced_activations import LeakyReLU
 import keras.backend as K
 
