@@ -4,7 +4,7 @@ from keras.layers import Embedding, Lambda, Concatenate, Add
 from keras.layers import GlobalAvgPool3D, Multiply
 from keras.layers.convolutional import Conv3DTranspose, Conv3D
 from keras.layers import BatchNormalization
-from keras.layers.advanced_activations import LeakyReLU
+from keras.layers import LeakyReLU
 import keras.backend as K
 
 def dense_layer(inp, f, act='relu', bn=True):
